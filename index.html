@@ -30,7 +30,7 @@
             <p class="header__logo-text">To do list</p>
           </div>
           <div class="header__list">
-            <ul class="filter-todo" data-lists>
+            <ul class="filter-todo">
               <li class="active" id="all">All</li>
               <li id="doned">Done</li>
               <li id="undone">Undone</li>
@@ -38,15 +38,10 @@
             </ul>
           </div>
         </header>
-        <div class="new-task" data-new-todo-form>
-          <input
-            type="text"
-            placeholder="Add a new task"
-            class="input"
-            data-new-todo-input
-          />
+        <div class="new-task">
+          <input type="text" placeholder="Add a new task" class="input" />
           <button class="btn btn--add">Add</button>
-          <button class="btn btn--edit" style="display: none">Edit</button>
+          <button class="btn btn--edit">Edit</button>
         </div>
         <ul id="task-list"></ul>
       </div>

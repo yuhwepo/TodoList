@@ -146,6 +146,10 @@ input:focus {
   animation: button-pop 0.5s linear;
 }
 
+.btn--edit {
+  display: none;
+}
+
 .btn:hover {
   background-color: var(--forceground-color);
 }
@@ -183,6 +187,7 @@ input:focus {
   height: 4.8rem;
   border-top-right-radius: 0.7rem;
   border-bottom-right-radius: 0.7rem;
+  box-shadow: 0px 25px 50px -10px rgba(0, 0, 0, 0.25);
 }
 
 .task-box:has(input[type="checkbox"]:checked) {
